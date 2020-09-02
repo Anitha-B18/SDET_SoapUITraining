@@ -1,0 +1,62 @@
+2020-09-02 17:46:48,115 WARN  [SoapUI] Missing folder [C:\Users\AnithaB\Desktop\webservices project\my-app\ext] for external libraries
+2020-09-02 17:46:48,581 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AnithaB\soapui-settings.xml]
+2020-09-02 17:46:52,895 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AnithaB/Desktop/webservices%20project/my-app/SoapAssignment-soapui-project.xml]
+2020-09-02 17:46:53,953 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SoapAssignment]
+2020-09-02 17:46:53,956 INFO  [SoapUITestCaseRunner] Running Project [SoapAssignment], runType = SEQUENTIAL
+2020-09-02 17:46:54,028 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-09-02 17:46:54,046 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 17:46:54,145 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-09-02 17:46:54,842 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 17:47:27,447 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:47:27,448 INFO  [SoapUITestCaseRunner] running step [getlist]
+2020-09-02 17:48:03,536 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:03,536 INFO  [SoapUITestCaseRunner] running step [getSalesOrderById]
+2020-09-02 17:48:05,149 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:05,151 INFO  [SoapUITestCaseRunner] running step [Property tranfer for get order id]
+2020-09-02 17:48:06,847 ERROR [SoapUITestCaseRunner] Property tranfer for get order id failed, exporting to [C:\Users\AnithaB\Desktop\webservices project\my-app\target/surefire-reports\Suite1_Property_Transfer-TestCase_1-Property_tranfer_for_get_order_id-0-FAILED.txt]
+2020-09-02 17:48:06,891 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 72745ms, status: FAILED
+2020-09-02 17:48:06,904 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-09-02 17:48:06,909 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 17:48:06,913 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 17:48:08,058 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:08,067 INFO  [SoapUITestCaseRunner] running step [getSalesOrderById]
+2020-09-02 17:48:08,872 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:08,873 INFO  [SoapUITestCaseRunner] running step [getOrderStatus]
+2020-09-02 17:48:09,855 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:09,857 INFO  [SoapUITestCaseRunner] running step [cancelOrder]
+2020-09-02 17:48:10,613 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:10,614 INFO  [SoapUITestCaseRunner] running step [getListOfSales]
+2020-09-02 17:48:39,913 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:39,919 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 32961ms, status: FINISHED
+2020-09-02 17:48:39,940 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-09-02 17:48:39,943 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 17:48:39,945 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 17:48:42,438 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:48:42,443 INFO  [SoapUITestCaseRunner] running step [getListOfSales]
+2020-09-02 17:49:13,446 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:13,447 INFO  [SoapUITestCaseRunner] running step [getSalesOrderById]
+2020-09-02 17:49:15,586 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:15,595 INFO  [SoapUITestCaseRunner] running step [getOrderStatus]
+2020-09-02 17:49:18,086 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:18,094 INFO  [SoapUITestCaseRunner] running step [cancelOrder]
+2020-09-02 17:49:19,737 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:19,744 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 39749ms, status: FINISHED
+2020-09-02 17:49:19,761 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2]
+2020-09-02 17:49:19,762 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-09-02 17:49:20,567 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-09-02 17:49:20,571 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-02 17:49:20,571 INFO  [SoapUITestCaseRunner] running step [save]
+2020-09-02 17:49:21,679 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:21,685 INFO  [SoapUITestCaseRunner] running step [getListOfSales]
+2020-09-02 17:49:51,967 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:51,968 INFO  [SoapUITestCaseRunner] running step [getSalesOrderById]
+2020-09-02 17:49:54,365 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:54,366 INFO  [SoapUITestCaseRunner] running step [getOrderStatus]
+2020-09-02 17:49:56,596 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:56,597 INFO  [SoapUITestCaseRunner] running step [cancelOrder]
+2020-09-02 17:49:58,469 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-02 17:49:58,474 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 37858ms, status: FINISHED
+2020-09-02 17:49:58,577 INFO  [log] Status=FINISHED, time taken to complete is :37858 ms
+2020-09-02 17:49:58,663 INFO  [log] number of test steps executed are :6
+2020-09-02 17:49:58,664 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2], time taken: 38894ms, status: FINISHED
+2020-09-02 17:49:58,671 INFO  [SoapUITestCaseRunner] Project [SoapAssignment] finished with status [FAILED] in 184703ms

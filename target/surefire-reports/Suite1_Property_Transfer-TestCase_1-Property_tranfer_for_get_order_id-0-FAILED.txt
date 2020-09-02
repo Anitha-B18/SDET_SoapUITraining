@@ -1,0 +1,41 @@
+Status: FAILED
+Time Taken: 1690
+Size: 0
+Timestamp: Wed Sep 02 17:48:05 IST 2020
+TestStep: Property tranfer for get order id
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing target property
+
+----------------- Messages ------------------------------
+Performed transfer [orderID]
+Performed transfer [orderIdCancel]
+Error performing transfer [order] - Missing target property
+----------------------------------------------------
+orderID transferred [[1]] from [getlist.Response] to [getOrderStatus.Request]
+------------ source path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:orderId[contains(text(),"1")]
+
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderManagementV1';
+//*:id
+orderIdCancel transferred [[1]] from [getlist.Response] to [cancelOrder.Request]
+------------ source path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:orderId[contains(text(),"1")]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderManagementV1';
+//*:id
+
+order transferred [[Missing target property]] from [getlist.Response] to [getSalesOrderById.null]
+------------ source path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:orderId[contains(text(),"1")]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:id
